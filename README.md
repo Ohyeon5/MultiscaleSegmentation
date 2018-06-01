@@ -1,7 +1,7 @@
 # MismatchPenaltySegmentation
 Mimicking human parallel visual information processing system (mismatch penalty) for Image semantic segmentation, using multiple feature maps. The project will be presented in Deep Learning Camp Jeju 2018. 
 
-Fully proposed by Oh-hyeon Choung (PhD candidate, EPFL Neuroscence program)
+Fully proposed by **Oh-hyeon Choung** *(PhD candidate, EPFL Neuroscence program)*
 
 Main references:
 > 1. Lauffs, M. M., Choung, O. H., Öğmen, H., & Herzog, M. H. (2018). Unconscious retinotopic motion processing affects non-retinotopic motion perception. Consciousness and cognition.
