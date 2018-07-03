@@ -9,12 +9,10 @@ Main references:
 >3. Shelhamer, E., Long, J., & Darrell, T. (2016). Fully Convolutional Networks for Semantic Segmentation. ArXiv:1605.06211 [Cs]. [(link)](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
 
 
-![Incongruent images][incong]
-
 ![Retino and Non-retino images][incongOccluded]
 
 
 
 
-[incong]: https://github.com/Ohyeon5/MismatchPenaltySegmentation/blob/master/figures/TPD_blackDisk_incongruent.gif
+
 [incongOccluded]: https://github.com/Ohyeon5/MismatchPenaltySegmentation/blob/master/figures/TPD_blackDisk_cong-incong_occlude.gif
