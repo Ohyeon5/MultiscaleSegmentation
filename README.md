@@ -9,9 +9,14 @@ Main references:
 >3. Shelhamer, E., Long, J., & Darrell, T. (2016). Fully Convolutional Networks for Semantic Segmentation. ArXiv:1605.06211 [Cs]. [(link)](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
 
 
+## Introduction
+Human visual system starts from lower visual area and proceed to the higher areas. However, it is not a full story. Our lower visual areas are largely affected by various higher visual area interactively. 
+
 ![Retino and Non-retino images][incongOccluded]
 
 
+## Obejective
+1. To 
 
 
 
