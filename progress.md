@@ -2,11 +2,17 @@
 
 **Hypothesis**
 1. Feature maps from each convolutional layer include distinct information
-2. Depending on it's 
+2. Depending on it's local/abstract features, could they be integrated using different strategy as human does? 
+
+
+## Base line model: U-net ()
+
+
 
 
 ## Task: Image semantic segmentation 
 
 examples) 
+
 ![alt text](https://github.com/Ohyeon5/MismatchPenaltySegmentation/blob/master/figures/fig_progress/example1.png)
 ![alt text](https://github.com/Ohyeon5/MismatchPenaltySegmentation/blob/master/figures/fig_progress/example2.png)
