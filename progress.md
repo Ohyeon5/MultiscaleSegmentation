@@ -8,5 +8,5 @@
 ## Task: Image semantic segmentation 
 
 examples) 
-![alt text](https://github.com/MismatchPenaltySegmentation/figures/fig_progress/example1.png)
-![alt text](https://github.com/MismatchPenaltySegmentation/figures/fig_progress/example2.png)
+![alt text](https://github.com/Ohyeon5/MismatchPenaltySegmentation/figures/fig_progress/example1.png)
+![alt text](https://github.com/Ohyeon5/MismatchPenaltySegmentation/figures/fig_progress/example2.png)
