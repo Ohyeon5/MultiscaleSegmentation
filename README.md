@@ -21,3 +21,23 @@ Human visual system starts from lower visual area and proceed to the higher area
 
 
 [incongOccluded]: https://github.com/Ohyeon5/MismatchPenaltySegmentation/blob/master/figures/TPD_blackDisk_cong-incong_occlude.gif
+
+
+# Multi-scale feature map induced image segmentation
+
+**Hypothesis**
+1. Feature maps from each convolutional layer include distinct information
+2. Depending on it's local/abstract features, could they be integrated using different strategy as human does? 
+
+
+## Base line model: U-net ()
+
+
+
+
+## Task: Image semantic segmentation 
+
+examples) 
+
+![alt text](https://github.com/Ohyeon5/MismatchPenaltySegmentation/blob/master/figures/fig_progress/example1.png)
+![alt text](https://github.com/Ohyeon5/MismatchPenaltySegmentation/blob/master/figures/fig_progress/example2.png)
