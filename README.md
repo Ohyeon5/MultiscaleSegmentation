@@ -1,5 +1,8 @@
-# MismatchPenaltySegmentation
-Mimicking human parallel visual information processing system (mismatch penalty) for Image semantic segmentation, using multiple feature maps. The project will be presented in [Deep Learning Camp Jeju 2018](http://jeju.dlcamp.org/2018/). 
+# Multi-scale feature map induced image segmentation
+Deep neural network is mimicking hierachical and feedforward process of human visual cortex. However, it is not a whole story. Human visual system is rather dynamic and recurrsive, therefore, interactive through out different layers.
+Such a top-down and bottom-up interactions are seemed to mimicked as a form of residual layers. However, it is unclear how it is explained with regard to human visual processing. 
+In current project, interpretation of each scale's feature would be 
+Mimicking human parallel visual information processing system (mismatch penalty) for Image semantic segmentation, using multiple feature maps. The project is conducted from [Deep Learning Camp Jeju 2018](http://jeju.dlcamp.org/2018/) supported by tensorflow Korea, Google, Kakao-brain, Netmarble, SKT, Element AI, JDC, and Jeju Univ. 
 
 Fully proposed by **Oh-hyeon Choung** *(PhD candidate, EPFL Neuroscence program)*
 
@@ -23,7 +26,6 @@ Human visual system starts from lower visual area and proceed to the higher area
 [incongOccluded]: https://github.com/Ohyeon5/MismatchPenaltySegmentation/blob/master/figures/TPD_blackDisk_cong-incong_occlude.gif
 
 
-# Multi-scale feature map induced image segmentation
 
 **Hypothesis**
 1. Feature maps from each convolutional layer include distinct information
