@@ -1,8 +1,14 @@
 # Multi-scale feature map induced image segmentation
-Deep neural network is mimicking hierachical and feedforward process of human visual cortex. However, it is not a whole story. Human visual system is rather dynamic and recurrsive, therefore, interactive through out different layers.
-Such a top-down and bottom-up interactions are seemed to mimicked as a form of residual layers. However, it is unclear how it is explained with regard to human visual processing. 
-In current project, interpretation of each scale's feature would be 
-Mimicking human parallel visual information processing system (mismatch penalty) for Image semantic segmentation, using multiple feature maps. The project is conducted from [Deep Learning Camp Jeju 2018](http://jeju.dlcamp.org/2018/) supported by tensorflow Korea, Google, Kakao-brain, Netmarble, SKT, Element AI, JDC, and Jeju Univ. 
+Deep neural network is mimicking hierachical and feedforward process of human visual cortex. However, it is not a whole story. Human visual system is rather dynamic and recurrsive. Therefore, interactive through out different layers.
+Such a top-down and bottom-up interactions are seemed to mimicked as a form of residual layers. However, it is unclear how it is explained with regard to human visual processing.
+In current project, interpretation of each scale's feature and integration strategy for each interpretation is studied.
+
+**Hypothesis**
+1. Feature maps from each convolutional layer include distinct information
+2. Depending on it's local/abstract features, could they be integrated using different strategy as human does?
+
+
+Mimicking human parallel visual information processing system (mismatch penalty) for Image semantic segmentation, using multiple feature maps. The project is conducted from [Deep Learning Camp Jeju 2018](http://jeju.dlcamp.org/2018/) supported by tensorflow Korea, Google, Kakao-brain, Netmarble, SKT, Element AI, JDC, and Jeju Univ.
 
 Fully proposed by **Oh-hyeon Choung** *(PhD candidate, EPFL Neuroscence program)*
 
@@ -13,13 +19,13 @@ Main references:
 
 
 ## Introduction
-Human visual system starts from lower visual area and proceed to the higher areas. However, it is not a full story. Our lower visual areas are largely affected by various higher visual area interactively. 
+Human visual system starts from lower visual area and proceed to the higher areas. However, it is not a full story. Our lower visual areas are largely affected by various higher visual area interactively.
 
 ![Retino and Non-retino images][incongOccluded]
 
 
 ## Obejective
-1. To 
+1. To
 
 
 
@@ -27,9 +33,6 @@ Human visual system starts from lower visual area and proceed to the higher area
 
 
 
-**Hypothesis**
-1. Feature maps from each convolutional layer include distinct information
-2. Depending on it's local/abstract features, could they be integrated using different strategy as human does? 
 
 
 ## Base line model: U-net ()
@@ -37,9 +40,9 @@ Human visual system starts from lower visual area and proceed to the higher area
 
 
 
-## Task: Image semantic segmentation 
+## Task: Image semantic segmentation
 
-examples) 
+examples)
 
 ![alt text](https://github.com/Ohyeon5/MismatchPenaltySegmentation/blob/master/figures/fig_progress/example1.png)
 ![alt text](https://github.com/Ohyeon5/MismatchPenaltySegmentation/blob/master/figures/fig_progress/example2.png)
