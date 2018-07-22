@@ -27,8 +27,8 @@ trainer = unet.Trainer(net,optimizer="adam", opt_kwargs=dict(learning_rate=1e-4)
 path = trainer.train(data_provider, output_path, training_iters=20, epochs=100)
 
 
-test_data_provider = image_util.ImageDataProvider("./data/testDB/*", n_class=21, data_suffix=".jpg", mask_suffix="_mask.png")
-test_data, test_label =
+# test_data_provider = image_util.ImageDataProvider("./data/testDB/*", n_class=21, data_suffix=".jpg", mask_suffix="_mask.png")
+# test_data, test_label =
 path = cwd + '/output/tutorial1/'
 prediction = net.predict(path, data)
 unet.error_rate(prediction, util.crop_to_shape(label, prediction.shape))
