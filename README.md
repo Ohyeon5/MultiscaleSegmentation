@@ -1,7 +1,7 @@
 # Multi-scale feature map induced image segmentation
 Deep neural network is mimicking hierachical and feedforward process of human visual cortex. However, it is not a whole story. Human visual system is rather dynamic and recurrsive, therefore, interactive through out different layers.
-Such a top-down and bottom-up interactions are seemed to mimicked as a form of residual layers. However, it is unclear how it is explained with regard to human visual processing. 
-In current project, features of mutiple scale residual maps are studied, and their integration strategies are studied. Corresponding features and integration strategies are considered with respect to human perceptual features. 
+Such a top-down and bottom-up interactions are seemed to mimicked as a form of residual layers (or short and long skip connections). However, it is unclear how it is explained with regard to human visual processing. 
+In current project, characteristics of mutiple scale residual maps are studied, and their integration strategies are studied. Corresponding features and integration strategies are considered with respect to human perceptual features. 
 The project is conducted from [Deep Learning Camp Jeju 2018](http://jeju.dlcamp.org/2018/) supported by tensorflow Korea, Google, Kakao-brain, Netmarble, SKT, Element AI, JDC, and Jeju Univ. 
 
 Fully proposed by **Oh-hyeon Choung** *(PhD candidate, EPFL Neuroscence program)*
@@ -36,7 +36,8 @@ Human visual system starts from lower visual area and proceed to the higher area
 
 
 
-## Base line model: U-net ()
+## Base line model: FCN (fully convolutional network) 
+Base line model is forked from ~~~~ 
 
 
 
