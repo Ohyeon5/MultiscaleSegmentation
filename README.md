@@ -46,7 +46,13 @@ For the baseline setting, please refer to original github repository.
 - In python 3 (and python 2 of tf 1.x.x): tf.pack --> tf.stack
 - Beaware of tfrecord's file path and name: causes 
 - "std::bad_alloc" error: RAM memory out or in border
-- ['label' out of range] error: 255 (border) values in label file cuses error. For me I added 
+- ['label' out of range] error: 255 (border) values in label file cuses error. For me I've added 
+```
+# Take away the masked out values from evaluation
+weights = tf.to_float( tf.not_equal(annotation_batch_tensor, 255) )
+# Get rid of 255s from the annotation_batch_tensor -> by multiplying weight factor
+annotation_batch_tensor = tf.multiply(annotation_batch_tensor, tf.cast(weights,tf.uint8))
+```
 
 
 [incongOccluded]: https://github.com/Ohyeon5/MismatchPenaltySegmentation/blob/master/figures/TPD_blackDisk_cong-incong_occlude.gif
