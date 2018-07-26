@@ -37,8 +37,16 @@ Human visual system starts from lower visual area and proceed to the higher area
 
 
 ## Base line model: FCN (fully convolutional network) 
-Base line model is forked from ~~~~ 
+Base line model is forked from https://github.com/warmspringwinds/tf-image-segmentation.git 
 
+For the baseline setting, please refer to original github repository.
+
+### Major Debugging Problems 
+- The code is written in python 2 (python 2.7 and tensorflow ==1.9.0 worked for me)
+- In python 3 (and python 2 of tf 1.x.x): tf.pack --> tf.stack
+- Beaware of tfrecord's file path and name: causes 
+- "std::bad_alloc" error: RAM memory out or in border
+- ['label' out of range] error: 255 (border) values in label file cuses error. For me I added 
 
 
 [incongOccluded]: https://github.com/Ohyeon5/MismatchPenaltySegmentation/blob/master/figures/TPD_blackDisk_cong-incong_occlude.gif
