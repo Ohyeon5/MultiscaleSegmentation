@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ohyeonpc/Desktop/Ohyeon5Projects/MismatchPenaltySegmentation/FCN/fcn_model/model_fcn32s_final.ckpt"
+all_model_checkpoint_paths: "/home/ohyeonpc/Desktop/Ohyeon5Projects/MismatchPenaltySegmentation/FCN/fcn_model/model_fcn32s_final.ckpt"
